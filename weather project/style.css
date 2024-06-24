@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgba(50, 47, 47, 0.943); */
+    /* background-image: url("https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    background-size: cover;
+    background: linear-gradient(135deg,rgb(4, 4, 95),purple);
+    /* background-repeat: no-repeat; */
+    
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00febac5,#740586);
+    margin: 100px auto 50px;
+    padding: 40px 35px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(35, 34, 34, 0.452);
+}
+.card:hover{
+    /* -webkit-box-shadow: 0px 0px 15px 5px rgba(190, 250, 255, 0.653);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(190, 250, 255, 0.653); */
+    box-shadow: 0px 0px 15px 5px rgba(190, 250, 255, 0.653);
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    gap: 20px;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    border-radius: 30px;
+    height: 50px;
+    font-size: 18px;
+    padding: 10px 25px;
+}
+button{
+    margin: 10px;
+    padding: 15px;
+    background: #c3e6e0;
+    border-radius: 25px;
+    height: fit-content;
+    
+}
+button:hover{
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.weather h1{
+    text-align: center;
+    box-sizing: content-box;
+    font-size: 40px;
+    color: whitesmoke;
+    
+}
+.temp:hover{
+    color: black;
+}
+.city:hover{
+    color: black;
+}
+.weather h2{
+    font-size: 30px;
+    color: whitesmoke;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    margin: 50px;
+}
+.humidity,.wind{
+    font-size: 28px;
+    color: whitesmoke;
+}
+.col p{
+    color: whitesmoke;
+}
+
